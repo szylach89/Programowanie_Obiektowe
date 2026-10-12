@@ -1,0 +1,52 @@
+Kino
+
+Klasa: Sala kinowa
+Stan:
+- Nr sali
+- Ilość miejsc
+
+Odpowiedzialności:
+- Podstawowe informacje o sali
+
+
+Klasa: Film
+Stan:
+- Tytuł
+- Długość trwania
+
+Odpowiedzialności:
+- Podstawowe informacje o filmie
+
+
+Klasa: Seans
+Stan:
+- Film
+- Sala
+- Godzina rozpoczęcia
+
+Odpowiedzialności:
+- Informacje dotyczące danego seansu: jaki film, o której godzinie, w jakiej sali
+
+
+Klasa: Rezerwacja
+Stan:
+- Seans
+- Nr Sali kinowej
+- Nr siedzenia
+
+Odpowiedzialności:
+- Informacje o rezerwcji miejsca na seans
+
+
+1.
+- obiekty klasy rezerwacja powinny wiedzieć o obiektach seans
+
+2.
+- Potencjalnie seans może powinien trzymać też informacje które miejsca są już zarezerwowane
+
+3.
+- Długość trwania seansu. Stan sali kinowej
+
+4.
+- Długość seansu powinien trwać ile trwa film, jego długość już jest w klasie film
+- Przypuszczam że przy ustalaniu seansów, nie będzie więcej niż 1 seans w 1 sali kinowej

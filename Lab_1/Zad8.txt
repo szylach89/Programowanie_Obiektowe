@@ -1,0 +1,27 @@
+A.
+- Marka
+- Model
+- Numer rejestracyjny
+- Stan wypożyczenia
+
+
+B.
+- Model
+- Przyspieszenie
+- Max Prędkość
+- Czułość sterowania
+
+
+C.
+- Model
+- Marka
+- Właściciel
+- Numer Rejestracyjny
+- Stan samochodu
+- Data przyjęcia (data uzyskania samochodu do warsztatu)
+
+
+Odp.
+- Ponieważ nie każdy program traktuje samochodu tak samo,
+ w systemie rezerwacji i w warsztacie Samochód reprezentuje faktyczny samochód,
+ za to w grze wyścigowej w klasie samochód mamy model 3D oraz dane które ustalają jego fizykę/prowadzenie

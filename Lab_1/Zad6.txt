@@ -1,0 +1,38 @@
+Klasa: Książka
+
+Stan:
+- Tytuł
+- Autor
+- ISBN
+- Rok wydania
+
+Odpowiedzialności:
+- Trzymanie informacji o książce
+
+
+Klasa: Czytelnik
+
+Stan:
+- Imie
+- Nazwisko
+- Nr karty bibliotecznej
+
+Odpowiedzialności:
+- Trzymanie Informacji o czytelniku
+
+
+Klasa: Wypożyczenie
+
+Stan:
+- Czytelnik
+- Książka
+- Data wypożyczenia
+- Termin zwrotu
+
+Odpowiedzialności:
+- Trzymanie informacji o wypożyczeniu: kto wypożyczył i jaką książkę
+- Trzymanie daty wypożyczenia i terminu zwrotu
+
+
+Klasy Książka i Czytelnik trzymają dane na temat książek i czytelników.
+Klasa Wypożyczenie łączy czytelnika i książkę którą wypożyczył, ma też datę wypożyczenia oraz termin zwrotu
