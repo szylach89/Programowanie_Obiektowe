@@ -23,5 +23,11 @@ public class Zad10 {
         *
         * c ---> Obiekt nr 2
         * */
+
+        // a = 20
+        // b = 20
+        // c = 30
+        // true
+        // false
     }
 }
