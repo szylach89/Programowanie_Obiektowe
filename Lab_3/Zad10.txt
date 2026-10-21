@@ -1,0 +1,7 @@
+1. studentName w klasie Student -> instancyjny, każdy student ma swoje imie
+2. numberOfStudents w klasie Student -> static, zlicza liczbę obiektów student, więc nie należy do konkretnego obiektu
+3. PI w klasie matematycznej -> static, PI to stała wartość, każdy obiekt nie musi mieć swoje własnej zmiennej PI
+4. balance w klasie BankAccount -> instancyjny, każde konto bankowe ma swój bilans konta
+5. calculateVat(double price) w bezstanowej klasie pomocniczej -> static, metoda nie używa np. z this, nie musi być instancyjna
+6. carMileage w klasie Car -> instancyjna, Każdy samochód ma swój przebieg
+7. MAX_LOGIN_ATTEMPTS w klasie LoginPolicy -> static, ogólna zmienna trzymająca maksymalną ilość prób logowania, nie musi być dla każdego obiektu
