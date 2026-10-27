@@ -1,9 +1,12 @@
 public class User {
 
-    public String login;
-    public String password;
+    // zmiana hasła, loginu i wieku na private
+    private String login;
+    private String password;
     // zmienna age powinna być polem obiektu, nie statyczna
-    public int age;
+    private int age;
+
+    // Hasło z powodu nie powinno mieć zwykłego gettera(hasło to wartość poufna, nie powinna mieć możliwości po prostu jej odczytania)
 
     public User(
             String login,
@@ -13,11 +16,27 @@ public class User {
         this.login = login;
         this.password = password;
         // zmiana z User.age na this.age
-        this.age = age;
+        this.age = age > 0 ? age : 1;
     }
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public void increaseAge() {
+        age++;
     }
 
     // metoda statyczna, nie powinna być statyczna, odwołuje się do pól instanji, usunięcie static
