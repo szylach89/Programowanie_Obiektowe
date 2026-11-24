@@ -1,0 +1,47 @@
+Shape - Abstrakcyjna
+ - Może mieć wspólny stan
+ - np. Triangle IS-A Shape
+ - Nie
+ - Tak, potrzebna jest częściowa implementacja, np. Liczenie pola
+
+Printable - Interfejs
+ - Nie może mieć wspólnego stanu(Interfejs nie ma pól)
+ - Nie istnieje naturalne IS-A
+ - Tak, np. książka, raport, dokument
+ - Częściowa implementacja nie jest wymagana
+
+Employee - Abstrakcujna
+ - Tak, np. Imie, Nazwisko
+ - Tak, np. Manager IS-A Employee
+ - Nie
+ - Tak, np. liczenie wynagrodzenia
+
+Comparable - Interfejs
+ - Nie może mieć wspólnego stanu(Interfejs nie ma pól)
+ - Nie istnieje naturalne IS-A
+ - Tak
+ - Częściowa implementacja nie jest wymagana
+
+Vehicle - Abstrakcyjna
+ - Może mieć wspólny stan
+ - Tak, np. Car IS-A Vehicle
+ - Nie
+ - Tak, np start.
+
+Encryptable - Interfejs
+ - Nie może mieć wspólnego stanu(Interfejs nie ma pól)
+ - Nie istnieje naturalne IS-A
+ - Tak
+ - Częściowa implementacja nie jest wymagana
+
+NotificationSender - Interfejs
+ - Nie może mieć wspólnego stanu(Interfejs nie ma pól)
+ - Nie istnieje naturalne IS-A
+ - Tak
+ - Częściowa implementacja nie jest wymagana
+
+Account - Abstrakcyjna
+ - Tak, np. nazwa użytkownika
+ - Tak, np. AdminAccount IS-A Account
+ - Nie
+ - Tak, np. login

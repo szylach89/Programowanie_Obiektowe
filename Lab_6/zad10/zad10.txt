@@ -1,0 +1,8 @@
+Car - Engine -> Kompozycja. Car HAS-A Engine
+Dog - Animal -> Dziedziczenie. Dog IS-A Animal
+House - Adress -> Kompozycja. House HAS-A Adress
+Manager - Employee -> Kompozycja. Manager IS-A Employee
+Computer - Processor -> Kompozycja. Computer HAS-A Processor
+Student - University -> Agregacja. Student HAS-A University
+Book - Author -> Kompozycja. Book HAS-A Author
+Order - PaymentMethod -> Asocjacja. Order USES-A PaymentMethod
